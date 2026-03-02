@@ -7,11 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white text-gray-800 font-sans">
-    <!-- Header -->
     <header class="bg-gray-100 py-6 shadow-md">
-      <div
-        class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center"
-      >
+      <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <a href="/" class="text-center md:text-left">
           <h1 class="text-2xl font-bold text-gray-800">
             Endi Suwandi
@@ -20,9 +17,7 @@
             </span>
           </h1>
         </a>
-        <ul
-          class="flex flex-col md:flex-row gap-4 md:gap-8 mt-4 md:mt-0 text-base"
-        >
+        <ul class="flex flex-col md:flex-row gap-4 md:gap-8 mt-4 md:mt-0 text-base">
           <li><a href="/" class="hover:text-slate-400">Home</a></li>
           <li><a href="/about" class="hover:text-slate-400">About</a></li>
           <li><a href="/projects" class="hover:text-slate-400">Projects</a></li>
@@ -30,102 +25,65 @@
       </div>
     </header>
 
-    <!-- Main Projects Section -->
     <main class="container mx-auto px-4 py-8">
       <div class="text-center mb-12">
         <h1 class="text-3xl font-bold">My Projects</h1>
         <p class="text-gray-600 mt-2">
-          A collection of projects I've worked on to practice and showcase my
-          skills.
+          A collection of projects I've worked on to practice and showcase my skills.
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Project Card 1 -->
+        
         <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <img
-            src="/assets/endisuwandi-com.png"
-            alt="Project 1"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-4">
-            <h3 class="text-xl font-semibold">Personal Website</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              Designed and developed a personal website to showcase my profile
-              as a Full Stack Web Developer. The site features an "About Me"
-              section, skill highlights, social media integration, and a
-              responsive layout built using HTML, TailwindCSS, and JavaScript.
-              This project demonstrates my ability to build clean, scalable, and
-              user-friendly front-end interfaces, while also reflecting my
-              commitment to continuous learning and self-branding.
+          <img src="/assets/acaraga-image.png" alt="Acaraga Project" class="w-full h-48 object-cover bg-gray-200" />
+          <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
+            <h3 class="text-xl font-semibold">Acaraga</h3>
+            <p class="text-sm text-gray-600 mt-2 flex-grow">
+              A comprehensive sports event management and booking system. Built with a focus on high performance and clean architecture, utilizing a modern TypeScript ecosystem for both frontend and a robust API backend.
             </p>
             <div class="flex flex-wrap gap-2 mt-3 text-xs">
-              <span class="bg-gray-200 px-2 py-1 rounded">HTML</span>
-              <span class="bg-gray-200 px-2 py-1 rounded">Tailwindcss</span>
-              <span class="bg-gray-200 px-2 py-1 rounded">JavaScript</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">TypeScript</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">Bun</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">Hono</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">React</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">PostgreSQL</span>
             </div>
             <div class="flex justify-between mt-4 text-sm text-blue-600">
-              <a
-                href="https://github.com/endisuwandii/endisuwandi.com"
-                class="hover:underline"
-                >GitHub Repo</a
-              >
-            
+              <a href="https://github.com/endisuwandii/acaraga" target="_blank" rel="noopener noreferrer" class="hover:underline">GitHub Repo</a>
+              <a href="https://acaraga.com" target="_blank" rel="noopener noreferrer" class="hover:underline">Click to visit</a>
             </div>
           </div>
         </div>
 
-        <!-- Project Card 2 -->
         <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <img
-            src="/assets/contact.png"
-            alt="Project 2"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-4">
-            <h3 class="text-xl font-semibold">Contact Management</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              A web-based application designed to manage and store contact
-              information such as names, phone numbers, emails, and addresses.
-              This project is being built using HTML, Tailwindcss, JavaScript,
-              and will later integrate with backend technologies for data
-              persistence. It aims to provide a clean, intuitive interface and
-              functionality such as add, edit, delete, and search contacts
-              efficiently. 🚧 Project is currently under development and not yet
-              completed.
+          <img src="/assets/clothify-image.png" alt="Clothify Project" class="w-full h-48 object-cover bg-gray-200" />
+          <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
+            <h3 class="text-xl font-semibold">Clothify</h3>
+            <p class="text-sm text-gray-600 mt-2 flex-grow">
+              Clothify is a simple e-commerce application built entirely by one developer using a fullstack approach. It features product listing, cart management, and checkout functionality. The app is designed to be lightweight and user-friendly.
             </p>
             <div class="flex flex-wrap gap-2 mt-3 text-xs">
-              <span class="bg-gray-200 px-2 py-1 rounded">HTML</span>
-              <span class="bg-gray-200 px-2 py-1 rounded">JavaScript</span>
               <span class="bg-gray-200 px-2 py-1 rounded">Tailwindcss</span>
-            </div> 
+              <span class="bg-gray-200 px-2 py-1 rounded">TypeScript</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">Hono</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">React-router</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">PostgreSQL</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">Docker</span>
+            </div>
             <div class="flex justify-between mt-4 text-sm text-blue-600">
-              <a
-                href="https://github.com/endisuwandii/contact-management"
-                class="hover:underline"
-                >GitHub Repo</a
-              
-              >
-                <a
-                href="https://contact-management-six-xi.vercel.app"
-                class="hover:underline"
-                >Click to visit</a
-              >
+              <a href="https://github.com/endisuwandii/clothify" target="_blank" rel="noopener noreferrer" class="hover:underline">GitHub Repo</a>
+              <a href="https://clothify-web.vercel.app/" target="_blank" rel="noopener noreferrer" class="hover:underline">Click to visit</a>
             </div>
           </div>
         </div>
 
-        <!-- Project Card 3 -->
         <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <img src="/assets/rdr2.png" alt="Project 3" class="w-full h-48 object-cover" />
-          <div class="p-4">
+          <img src="/assets/rdr2.png" alt="RDR 2 Project" class="w-full h-48 object-cover" />
+          <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
             <h3 class="text-xl font-semibold">RDR 2 Missions API</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              A RESTful API for the RDR Missions project, built using Node.js,
-              Express, and MongoDB. This API provides endpoints for managing
-              missions, including CRUD operations and authentication. It is
-              designed to be scalable and efficient, with a focus on security
-              and data integrity.
+            <p class="text-sm text-gray-600 mt-2 flex-grow">
+              A RESTful API for the RDR Missions project, built using Node.js, Express, and MongoDB. This API provides endpoints for managing missions, including CRUD operations and authentication. It is designed to be scalable and efficient.
             </p>
             <div class="flex flex-wrap gap-2 mt-3 text-xs">
               <span class="bg-gray-200 px-2 py-1 rounded">React</span>
@@ -134,111 +92,46 @@
               <span class="bg-gray-200 px-2 py-1 rounded">Bun</span>
             </div>
             <div class="flex justify-between mt-4 text-sm text-blue-600">
-              <a
-                href="https://github.com/endisuwandii/rdr2-missions-api"
-                class="hover:underline"
-                >GitHub Repo</a
-              >
+              <a href="https://github.com/endisuwandii/rdr2-missions-api" target="_blank" rel="noopener noreferrer" class="hover:underline">GitHub Repo</a>
+              <a href="https://rdr2-missions-api-production.up.railway.app" target="_blank" rel="noopener noreferrer" class="hover:underline">Click to visit</a>
             </div>
           </div>
         </div>
+
         <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <img src="/assets/tuxedo.jpg" alt="Project 4" class="w-full h-48 object-cover" />
-          <div class="p-4">
+          <img src="/assets/contact.png" alt="Contact Management Project" class="w-full h-48 object-cover" />
+          <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
+            <h3 class="text-xl font-semibold">Contact Management</h3>
+            <p class="text-sm text-gray-600 mt-2 flex-grow">
+              A web-based application designed to manage and store contact information such as names, phone numbers, emails, and addresses. It aims to provide a clean, intuitive interface and functionality. 🚧 Project is currently under development.
+            </p>
+            <div class="flex flex-wrap gap-2 mt-3 text-xs">
+              <span class="bg-gray-200 px-2 py-1 rounded">HTML</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">JavaScript</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">Tailwindcss</span>
+            </div>
+            <div class="flex justify-between mt-4 text-sm text-blue-600">
+              <a href="https://github.com/endisuwandii/contact-management" target="_blank" rel="noopener noreferrer" class="hover:underline">GitHub Repo</a>
+              <a href="https://contact-endi.vercel.app/" target="_blank" rel="noopener noreferrer" class="hover:underline">Click to visit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img src="/assets/tuxedo.jpg" alt="Tuxedo Task Project" class="w-full h-48 object-cover" />
+          <div class="p-4 flex flex-col h-[calc(100%-12rem)]">
             <h3 class="text-xl font-semibold">Tuxedo Task App</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              A simple task management application designed to help users manage
-              their daily tasks with a clean and intuitive interface. This
-              project is built by Endi Suwandi as part of a bootcamp to
-              implement the principles of Computational Thinking and Fullstack
-              Web Development. The application is inspired by the interface and
-              basic functionality of the popular task management tool, Microsoft
-              To Do
+            <p class="text-sm text-gray-600 mt-2 flex-grow">
+              A simple task management application designed to help users manage their daily tasks with a clean and intuitive interface. Inspired by the interface and basic functionality of the popular task management tool, Microsoft To Do.
             </p>
             <div class="flex flex-wrap gap-2 mt-3 text-xs">
               <span class="bg-gray-200 px-2 py-1 rounded">React</span>
               <span class="bg-gray-200 px-2 py-1 rounded">Tailwindcss</span>
               <span class="bg-gray-200 px-2 py-1 rounded">TypeScript</span>
-            </div>
-            <div class="flex justify-between mt-4 text-sm text-blue-600">
-              <a
-                href="https://github.com/endisuwandii/tuxedo-task-app"
-                class="hover:underline"
-                >GitHub Repo</a
-              >
-              <a
-              href="https://tuxedo-task-app.vercel.app"
-              class="hover:underline"
-                >Click to visit</a
-            >
-            </div>
-          </div>
-        </div>
-
-        <!-- Project Card 5 -->
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-          <img src="#" alt="Project 5" class="w-full h-48 object-cover" />
-          <div class="p-4">
-            <h3 class="text-xl font-semibold">Clothify</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              Clothify is a simple e-commerce application built entirely by one developer using a fullstack approach. 
-              It features product listing, cart management, and checkout functionality. The app is designed to be lightweight and user-friendly, with a focus on clean architecture and responsive design
-            </p>
-            <div class="flex flex-wrap gap-2 mt-3 text-xs">
-           
-              <span class="bg-gray-200 px-2 py-1 rounded">Tailwindcss</span>
-              <span class="bg-gray-200 px-2 py-1 rounded">TypeScript</span>
-              <span class="bg-gray-200 px-2 py-1 rounded">Hono</span>
-              <span class="bg-gray-200 px-2 py-1 rounded">React-router</span>
-             
-              <span class="bg-gray-200 px-2 py-1 rounded">PostgreSQL</span>
-             
-              <span class="bg-gray-200 px-2 py-1 rounded">Docker</span>
             
             </div>
-         
-          </div>
             <div class="flex justify-between mt-4 text-sm text-blue-600">
-              <a
-                href="https://github.com/endisuwandii/clothify"
-                class="hover:underline"
-                >GitHub Repo</a>
-              <a
-                href="https://clothify-git-main-endisuwandii.vercel.app"
-                class="hover:underline"
-                >Click to visit</a
-              >
+              <a href="https://github.com/endisuwandii/tuxedo-task-app" target="_blank" rel="noopener noreferrer" class="hover:underline">GitHub Repo</a>
+              <a href="https://tuxedo-task-app.vercel.app/" target="_blank" rel="noopener noreferrer" class="hover:underline">Click to visit</a>
             </div>
-          </div>
-
-
-
-          
-          <!-- Project Card 6 -->
-          <div class="bg-white rounded-xl shadow-md overflow-hidden">
-            <!-- <img src="#" alt="Project 6" class="w-full h-48 object-cover" /> -->
-            <div class="p-4">
-              <h3 class="text-xl font-semibold"></h3>
-              <p class="text-sm text-gray-600 mt-2">
-            
-              </p>
-              <div class="flex flex-wrap gap-2 mt-3 text-xs">
-                <!-- <span class="bg-gray-200 px-2 py-1 rounded"></span> -->
-              </div>
-            </div>
-            <div class="flex justify-between mt-4 text-sm text-blue-600">
-             
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-200 py-4 mt-12">
-      <div class="container mx-auto px-4 text-center text-sm text-gray-600">
-        &copy; 2025 Endi Suwandi
-      </div>
-    </footer>
-  </body>
-</html>
+            <div class="flex justify-between mt-4 text-sm text
